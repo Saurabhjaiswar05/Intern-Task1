@@ -1,0 +1,104 @@
+.select-view-form {
+    width: 400px;
+    margin: auto;
+    height: 500px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .select-view-form > i{
+    margin-left: 95%;
+    cursor: pointer;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .form-subtext {
+    text-align: center;
+    font-size: 12px;
+    color: #888;
+    margin-bottom: 20px;
+  }
+  
+  .view-options {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .view-option {
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .view-option input {
+    display: none;
+    
+  }
+  
+  .view-label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .view-box {
+    width: 120px;
+    height: 120px;
+    background-color:white;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .view-box i{
+    font-size: 50px;
+    color: gray;
+  }
+  
+  .view-option input:checked + .view-label .view-box {
+    border-color: #007bff;
+  }
+  
+  .view-label span {
+    font-size: 16px;
+  }
+  
+  .form-navigation{
+    margin-top: 200px;
+  }
+
+  .form-navigation > .back-btn{
+    background-color: white;
+    border: none;
+    outline: none;
+    color: grey;
+    cursor: pointer;
+  }
+  
+  .form-navigation > .next-button {
+    width: 60px;
+    padding: 10px 13px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-left:35% ;
+    cursor: pointer;
+  }
+  
+  .form-navigation > .next-button:hover {
+    background-color: #0056b3;
+  }
+  
